@@ -10,7 +10,7 @@ Amplify.configure(config, { ssr: true });
 
 export function Auth({ children }: { children: React.ReactNode }) {
   return (
-    <View {...theme.containerProps()} color="font.primary">
+    <View {...theme.containerProps()} color="font.primary" className="min-h-screen flex items-center justify-center">
       <Authenticator
         services={{
           async validateCustomSignUp(formData) {
