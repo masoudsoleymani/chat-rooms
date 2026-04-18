@@ -29,7 +29,7 @@ A full-stack chat application built with Next.js 15 and AWS Amplify Gen 2, featu
 
 ### Prerequisites
 
-- Node.js 18+ installed
+- Node.js 22+ installed
 - AWS account with:
   - [AWS Amplify local setup](https://docs.amplify.aws/react/start/account-setup/) configured
   - Claude 3.5 Sonnet model enabled in Amazon Bedrock
